@@ -1,0 +1,22 @@
+title: "Блог о нейросетях – практика, кейсы, инсайты"
+description: "Свежие статьи о применении ИИ: реальные кейсы, инструменты, автоматизация бизнеса, лайфхаки по работе с нейросетями."
+lang: "ru"
+
+baseurl: ""  
+url: "https://1stai.ru"  
+
+paginate: 3
+paginate_path: "/blog/page:num/"
+
+# Подключаем плагины
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Указываем директорию для постов
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year-:month-:day-:title/
